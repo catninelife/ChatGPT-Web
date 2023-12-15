@@ -150,7 +150,7 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
-    name: "gpt-3.5-turbo-16k-0613",
+    name: "ft:gpt-3.5-turbo-0613:personal::8VxwD9sZ",
     available: true,
   },
 ] as const;
