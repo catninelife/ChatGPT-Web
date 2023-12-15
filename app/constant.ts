@@ -88,7 +88,7 @@ Latex inline: $x^2$
 Latex block: $$e=mc^2$$
 `;
 
-export const SUMMARIZE_MODEL = "ft:gpt-3.5-turbo-0613:personal::8VxwD9sZ";
+export const SUMMARIZE_MODEL = "gpt-3.5-turbo";
 
 export const KnowledgeCutOffDate: Record<string, string> = {
   default: "2021-09",
@@ -130,7 +130,7 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
-    name: "ft:gpt-3.5-turbo-0613:personal::8VxwD9sZ",
+    name: "gpt-3.5-turbo",
     available: true,
   },
   {
